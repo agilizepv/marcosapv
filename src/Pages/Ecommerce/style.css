@@ -1,0 +1,18 @@
+.corpo-eco{
+    padding-top: 8em;
+}
+
+.corpo-eco h1{
+    text-align: center;
+}
+
+.car{
+    display: grid;
+    margin-top: 5em;
+
+}
+.blocoseco{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5em;
+}

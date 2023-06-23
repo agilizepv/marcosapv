@@ -1,3 +1,4 @@
+import './style.css'
 
 interface eco{
     link: string;
@@ -8,11 +9,10 @@ interface eco{
 
 const CardEcommerce: React.FC<eco> = ({link, img, titulo, texto}) =>{
     return(
-        <div>
-            <a href={link}>
-                <img src={img} alt="" /></a>
+        <div className="cardeco">
+            <img src={img} alt="" />
             <h3>{titulo}</h3>
-            <p>{texto}</p>
+            <a target="_blanck" href={link}>{texto}</a>     
         </div>
     )
 }; export default CardEcommerce;

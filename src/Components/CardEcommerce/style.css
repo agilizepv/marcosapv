@@ -1,0 +1,8 @@
+.cardeco{
+    display: grid;
+    align-items: center;
+}
+
+.cardeco img{
+    width: 15em;
+}
