@@ -1,0 +1,13 @@
+.localizacao{
+    background-color: #cc9900;
+}
+
+.localizacao h1{
+    padding: 0.5em 0.5em;
+    text-align: center;
+    font-size: 3em;
+}
+
+.localizacao iframe{
+    width: 100%;
+}

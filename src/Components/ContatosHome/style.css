@@ -1,0 +1,35 @@
+.contato{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000;
+    padding: 5em;
+}
+
+.contatos{
+    display: grid;
+    justify-content: center;
+}
+
+.contatos h1, h2, h3{
+    color: #cc9900;
+}
+
+.contatos p{
+  color:  #fff;
+}
+
+.contatos h2{
+    margin-bottom: 1em;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.flex img{
+    width: 40px;
+    margin-right: 10px;
+}
+

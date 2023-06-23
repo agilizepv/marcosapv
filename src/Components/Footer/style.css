@@ -1,0 +1,53 @@
+
+.footer{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.footer img{
+    width: 25%;
+}
+
+.footer p{
+    color: #cc9900;
+}
+
+.logo-footer{
+    width: 10%;
+}
+
+.logo-footer img{
+    width: 100%;
+}
+
+.links-footer{
+    width: 10%;
+}
+
+.meio{
+    text-align: center;
+}
+
+.meio p{
+    font-size: 0.8em;
+}
+
+#copy{
+    padding-top: 10px;
+    height: 12px;
+}
+
+@media (max-width: 561px){
+    .meio p{
+        font-size: 0.6em;
+    }
+    .links-footer{
+        display: grid;
+    }
+    .footer img{
+        width: 1.5em;
+    }
+}

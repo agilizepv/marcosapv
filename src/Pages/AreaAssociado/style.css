@@ -1,0 +1,60 @@
+.corpo-asso{
+    padding-top: 10em;
+}
+
+.caixa-apar{
+    display: flex;
+    align-items: center;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.formulario{
+    width: 50%;
+}
+
+.formulario h1{
+    margin-bottom: 1.5em;
+}
+
+.form label{
+    margin-right: 1em;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.form button{
+    margin-top: 2em;
+    padding: 0.3em 3em;
+    background-color: #000;
+    color: #cc9000;
+    border: none;
+    border-radius: 5px;
+}
+
+.img-area{
+    width: 50%;
+}
+
+.img-area img{
+    width: 100%;
+}
+
+@media (max-width: 600px){
+    
+    .img-area{
+        display: none;
+    }
+    .formulario{
+        width: 100%;
+    }
+    .caixa-apar{
+        margin-left: 5em;
+        display: flex;
+        justify-content: center;
+    }
+    .corpo-asso{
+        padding-top: 12em;
+        padding-bottom: 10em;
+    }
+}

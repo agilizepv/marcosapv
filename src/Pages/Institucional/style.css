@@ -1,0 +1,42 @@
+.bodyInstitucional{
+    padding-top: 12em;
+    padding-bottom: 12em;
+}
+
+.resolucao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto-quemSomos{
+    width: 50%;
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+.texto-quemSomos{
+    text-align: justify;
+}
+
+.imgCarro{
+    width: 50%;
+}
+
+.imgCarro img{
+    width: 100%;
+}
+
+@media (max-width: 701px){
+    .resolucao{
+        display: grid;
+    }
+    .texto-quemSomos{
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+    .imgCarro{
+        width: 100%;
+    }
+}

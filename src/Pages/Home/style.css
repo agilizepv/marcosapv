@@ -1,0 +1,43 @@
+.administrativo{
+    margin-top: 1em;
+    margin-bottom: 1em;    
+}
+
+.titulo-administrativo, .p-administrativo{
+    display: grid;
+    justify-content: center;
+
+}
+
+.p-administrativo p{
+    margin-bottom: 40px;
+    color: #000;
+}
+
+.titulo-administrativo h1{
+    font-size: 3em;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2em;
+}
+
+@media (max-width: 590px){
+
+    .titulo-administrativo h1{
+        font-size: 1.8em;
+    }
+    
+}
+
+@media (max-width: 945px){
+
+    .capa-img{
+       padding-top: 1em;
+    } 
+
+}
