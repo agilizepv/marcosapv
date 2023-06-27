@@ -61,17 +61,17 @@ export default function Header() {
       <div>
             {isOpen && (
               <div className='bloco'>
-                <div>
+                <div className='link-div'>
                   <Link className="link" to="/">
                     Home
                   </Link>
                 </div>
-                <div>
+                <div className='link-div'>
                   <Link className="link" to="/beneficios">
                    Clube de Benefícios
                   </Link>
                 </div>
-                <div>
+                <div className='link-div'>
                   <Link
                     className="link"
                     to="/ecommerce"
@@ -79,7 +79,7 @@ export default function Header() {
                    Agilize E-commerce
                   </Link>
                 </div>
-                <div>
+                <div className='link-div'>
                   <Link
                     className="link"
                     to="/parceiros"
@@ -87,7 +87,7 @@ export default function Header() {
                     Parceiros Agilize
                   </Link>
                 </div>
-                <div>
+                <div className='link-div'>
                   <Link
                     className="link"
                     to="/institucional"

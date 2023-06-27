@@ -35,6 +35,10 @@
     background-color: #000;
 }
 
+.link-div{
+    padding-bottom: 2em;
+}
+
 .link{
     color: #cc9900;
     text-decoration: none;
@@ -48,19 +52,15 @@
     width: 2em;
 }
 
-@media (min-width: 946px){
+@media (min-width: 1049px){
     .menu-suspenso{
         display: none;
     }
 }
 
-@media(max-width: 945px){
+@media(max-width: 1048px){
     .menu-link{
         display: none;
     }
-}
-
-@media(max-width: ){
-    
 }
 

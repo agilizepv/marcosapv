@@ -1,0 +1,22 @@
+.cardpar{
+    display: grid;
+    place-items: center;
+    padding: 2em;
+}
+
+.cardpar img{
+    width: 10em;
+    padding-bottom: 2em;
+}
+
+@media (max-width: 1250px){
+    .cardpar img{
+        width: 20em;
+    }    
+}
+
+@media (max-width: 465px){
+    .cardpar img{
+        width: 10em;
+    }    
+}

@@ -28,11 +28,14 @@
 }
 
 @media (max-width: 701px){
+    .bodyInstitucional{
+        width: 100%;
+    }
     .resolucao{
         display: grid;
     }
     .texto-quemSomos{
-        width: 100%;
+        width: 95%;
         margin: 0;
         padding: 10px;
     }

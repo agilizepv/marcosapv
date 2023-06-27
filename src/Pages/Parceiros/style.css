@@ -1,0 +1,29 @@
+.mainParceiros{
+    padding-top: 10%;
+    padding-bottom: 5em;
+}
+
+.mainBloco{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-bottom: 5em;
+}
+
+@media (max-width: 1300px){
+    .mainBloco{
+        display: grid;
+    }
+}
+
+@media (max-width: 1030px){
+    .mainParceiros{
+        padding-top: 15%;
+    }
+}
+
+@media (max-width: 660px){
+    .mainParceiros{
+        padding-top: 25%;
+    }
+}
