@@ -6,6 +6,7 @@ import shopee from '../../assets/shopee.png'
 import saraiva from '../../assets/saraiva.jpg'
 import submarino from '../../assets/submarino.jpg'
 import magalulogo from "../../assets/magalu-logo.png"
+import Nike from '../../assets/nike.jpg'
 import './style.css'
 
 export default function Ecommerce() {
@@ -160,6 +161,14 @@ export default function Ecommerce() {
                                 img={saraiva}
                                 titulo="Printful"
                                 texto=""
+                            />
+                        </div>
+                        <div className="blocoseco-3">
+                            <CardEcommerce
+                                link="https://www.nike.com.br/?utm_source=socialsoul&utm_medium=34476053&utm_content=&utm_campaign=Agilize%20Protecao%20Veicular&lmdsid=NTkwMSwzNzk3OTU5NCwxNjg5MTA1ODY0OTYyLG51bGwsNzg5NywxOTI2MzFjYTI3ZSwlmdhjacfrlaalrfweal"
+                                img={Nike}
+                                titulo="Nike"
+                                texto="Compre com o nosso link!"
                             />
                         </div>
                     </div>
